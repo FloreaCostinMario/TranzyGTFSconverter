@@ -48,6 +48,8 @@ def FetchFromURL(URL: str, headers=None, params=None):
     
     except requests.exceptions.RequestException as e:
         print(f"Request failed: {e}")
+        print(response.content)
+        print(response.headers)
         return None
 
 # Converting API responses to CSV/TXT
