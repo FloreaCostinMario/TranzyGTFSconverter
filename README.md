@@ -10,12 +10,13 @@ This currently impacts the following:
 <br />- `stop_times.txt` doesn't have the `arrival_time` or `departure_time` parameter
 <br />The Tranzy API isn't fully GTFS compliant, be prepared to troubleshoot.
 
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/TranzyCreditLight.png">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/TranzyCreditDark.png">
+  <img alt="Tranzy.ai" src="./assets/TranzyCreditLight.png" style="max-width:120px; height:auto; vertical-align:middle;  margin-right:10px;">
+</picture>
 <p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/TranzyCreditLight.png">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/TranzyCreditDark.png">
-    <img alt="Tranzy.ai" src="./assets/TranzyCreditLight.png" style="max-width:120px; height:auto; vertical-align:middle;  margin-right:10px;">
-  </picture>
   These files are granted by Tranzy under their own licence which you can read <a href="https://apps.tranzy.ai/accounts/terms-and-conditions" target="_blank" rel="noopener noreferrer">here</a>, additionally each operator has their own individual licence which you can check in the table below.
 </p>
 
