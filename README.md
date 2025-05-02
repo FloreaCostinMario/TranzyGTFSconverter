@@ -5,9 +5,9 @@ This project converts the responses from the https://tranzy.ai API to GTFS stati
 > [!CAUTION]  
 > The Tranzy API doesn't supply any time related atributes or files related to schedule or time.
 This currently impacts the following:
-`calendar.txt` or `calendar_dates.txt` can't be generated due to any schedule information missing
-`trips.txt` doesn't have the `service_id` parameter
-`stop_times.txt` doesn't have the `arrival_time` or `departure_time` parameter
+<br />- `calendar.txt` or `calendar_dates.txt` can't be generated due to any schedule information missing
+<br />- `trips.txt` doesn't have the `service_id` parameter
+<br />- `stop_times.txt` doesn't have the `arrival_time` or `departure_time` parameter
 
 Tranzy API isn't fully GTFS compliant, be prepared to troubleshoot.
 
@@ -120,7 +120,7 @@ Tranzy API isn't fully GTFS compliant, be prepared to troubleshoot.
 Due to limitations of the Tranzy AI (5000 calls / day) & Github limitations, it wasn't possible to add real-time feeds into the scope of this project.
 
 > [!TIP]
-> If you want however to have real-time feeds you can register at https://tranzy.dev/accounts, the only real-time feed that the API currently provides is Vehicle Positions.
+> If you want however to have real-time feeds you can register at https://tranzy.dev/accounts, the only real-time feed that the API currently provides is vehicle positions.
 
 # Running locally
 Replace the API key in `FetchAndConvert.py` with your own.
