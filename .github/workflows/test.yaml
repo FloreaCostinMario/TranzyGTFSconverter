@@ -8,6 +8,7 @@ jobs:
       contents: write
 
     steps:
+    - uses: actions/checkout@v4
     - name: List files in working directory
       run: ls -l
     - name: List files in Output directory
