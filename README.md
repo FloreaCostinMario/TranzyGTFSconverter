@@ -2,7 +2,7 @@
 
 This project converts the responses from the https://tranzy.ai API to GTFS static files.
 
-> [!DANGER]  
+> [!CAUTION]  
 > Feeds are not currently published pending last minute compliance checking.
 
 > [!WARNING]  
