@@ -119,7 +119,7 @@ def main():
     # Executing agency specific requestss
     for Agency in Agencies:
         # Temporary bypass, Oradea can't be used but is in API
-        if Agency["agency_id"] != 4:  #== 9:
+        if Agency["agency_id"] == 9:
             continue
 
         # Fix agency URLs

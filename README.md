@@ -121,3 +121,16 @@ Due to limitations of the Tranzy AI (5000 calls / day) & Github limitations, it 
 
 > [!TIP]
 > If you want however to have real-time feeds you can register at https://tranzy.dev/accounts, the only real-time feed that the API currently provides is Vehicle Positions.
+
+# Running locally
+Replace the API key in `FetchAndConvert.py` with your own.
+
+Install dependencies
+```
+pip install -r requirements.txt
+```
+
+Run
+```
+python FetchAndConvert.py
+```
