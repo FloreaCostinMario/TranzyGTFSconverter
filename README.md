@@ -8,8 +8,7 @@ This currently impacts the following:
 <br />- `calendar.txt` or `calendar_dates.txt` can't be generated due to any schedule information missing
 <br />- `trips.txt` doesn't have the `service_id` parameter
 <br />- `stop_times.txt` doesn't have the `arrival_time` or `departure_time` parameter
-
-Tranzy API isn't fully GTFS compliant, be prepared to troubleshoot.
+<br />    Tranzy API isn't fully GTFS compliant, be prepared to troubleshoot.
 
 <p>
   <picture>
