@@ -39,7 +39,9 @@ This currently impacts the following:
                     <div>CTP Iasi</div>
                 </a>
             </td>
-            <td>GTFS feed soon™</td>
+            <td>
+                <a href="https://github.com/FloreaCostinMario/TranzyGTFSconverter/raw/refs/heads/main/Output/SCTP%20Iasi.zip">GTFS feed</a>
+            </td>
             <td>
                 <a href="https://apps.tranzy.ai/accounts/terms-and-conditions/sctp-iasi">Licence</a>
             </td>
@@ -53,7 +55,9 @@ This currently impacts the following:
                     <div>CTP Cluj</div>
                 </a>
             </td>
-            <td>GTFS feed soon™</td>
+            <td>
+                <a href="https://github.com/FloreaCostinMario/TranzyGTFSconverter/raw/refs/heads/main/Output/CTP%20Cluj.zip">GTFS feed</a>
+            </td>
             <td>
                 <a href="https://apps.tranzy.ai/accounts/terms-and-conditions/ctp-cluj">Licence</a>
             </td>
@@ -69,7 +73,9 @@ This currently impacts the following:
                     <div>Eltrans Botosani</div>
                 </a>
             </td>
-            <td>GTFS feed soon™</td>
+            <td>
+                <a href="https://github.com/FloreaCostinMario/TranzyGTFSconverter/raw/refs/heads/main/Output/Eltrans%20Botosani.zip">GTFS feed</a>
+            </td>
             <td>
                 <a href="https://apps.tranzy.ai/accounts/terms-and-conditions/eltrans-botosani">Licence</a>
             </td>
@@ -85,7 +91,9 @@ This currently impacts the following:
                     <div>STPT Timișoara</div>
                 </a>
             </td>
-            <td>GTFS feed soon™</td>
+            <td>
+                <a href="https://github.com/FloreaCostinMario/TranzyGTFSconverter/raw/refs/heads/main/Output/STPT%20Timisoara.zip">GTFS feed</a>
+            </td>
             <td>
                 <a href="https://apps.tranzy.ai/accounts/terms-and-conditions/stpt-timisoara">Licence</a>
             </td>
@@ -105,7 +113,9 @@ This currently impacts the following:
                     <div>PUA Chisinau</div>
                 </a>
             </td>
-            <td>GTFS feed soon™</td>
+            <td>
+                <a href="https://github.com/FloreaCostinMario/TranzyGTFSconverter/raw/refs/heads/main/Output/RTEC&PUA%20Chisinau.zip">GTFS feed</a>
+            </td>
             <td>
                 <a href="https://apps.tranzy.ai/accounts/terms-and-conditions/rtec-chisinau">RTEC licence</a>
                 <br>
