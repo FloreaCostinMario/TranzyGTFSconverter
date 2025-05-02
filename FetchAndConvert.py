@@ -177,17 +177,15 @@ def main():
                                 break
         '''
                                 
-        FilesToGenerate.update({
-            "feed_info.txt", JsonToCSVString(json.loads(json.dumps(
-                {
-                    "feed_publisher_name": "Florea Costin Mario",
-                    "feed_publisher_url": "https://github.com/FloreaCostinMario/TranzyGTFSconverter",
-                    "feed_lang": "ron",
-                    "feed_contact_url": "https://github.com/FloreaCostinMario/TranzyGTFSconverter/issues",
-                    #"feed_version": str(Version)
-                }
-            )))
-        })                   
+        FilesToGenerate.update({"feed_info.txt": 
+            JsonToCSVString({
+                "feed_publisher_name": "yes",
+                "feed_publisher_url": "yes",
+                "feed_lang": "ron",
+                "feed_contact_url": "yes",
+                #"feed_version": str(Version)
+            })
+        })
         
         # Generate gtfs zip archive
         GenerateZIP(f'{Agency["agency_name"]}', FilesToGenerate)
