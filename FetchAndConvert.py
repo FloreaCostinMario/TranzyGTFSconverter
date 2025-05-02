@@ -9,7 +9,8 @@ from datetime import timedelta
 from ratelimit import limits, sleep_and_retry
 from dotenv import load_dotenv
 
-load_dotenv()
+if os.getenv("GITHUB_ACTIONS") != "true":
+    load_dotenv()
 
 API_KEY = os.getenv('TranzyGithubBuildKey') # Replace with your own API key
 BASE_URL = "https://api.tranzy.ai/v1/opendata"
