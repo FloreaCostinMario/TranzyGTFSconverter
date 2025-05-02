@@ -103,7 +103,6 @@ def FixRoute(RouteTxt):
 def FixAgency(Agency):
     # For some agencies tranzy provided multiple URLs, this is not supported so only the 1st will be select
     if "agency_urls" in Agency:
-        print(type(Agency["agency_urls"]))
         if isinstance(Agency["agency_urls"], list):
             #This agency has issues, copy with all parameters that are lists removed
             FixedAgency = {k: v for k, v in Agency.items() if not isinstance(v, list)}
@@ -159,24 +158,7 @@ def main():
         })
 
         # TO DO: Implemenet version checking
-
-        # Generate feed info
-        # Check for version
         
-        '''
-        Version = 1
-
-        if os.path.exists(f'Output/{Agency["agency_name"]}'):
-            with zipfile.ZipFile(f'Output/{Agency["agency_name"]}', 'r') as archive:
-                for file_info in archive.infolist():
-                    if file_info.filename in FilesToGenerate:
-                        with archive.open(file_info.filename) as file:
-                            if(file.decode('utf-8') != FilesToGenerate[file_info.filename]):
-                                Version += 1 # Bump version
-                                archive.close()
-                                break
-        '''
-                                
         FilesToGenerate.update({"feed_info.txt": 
             JsonToCSVString({
                 "feed_publisher_name": "yes",
