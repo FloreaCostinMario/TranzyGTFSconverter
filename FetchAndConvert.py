@@ -71,7 +71,7 @@ def JsonToCSVString(data):
 
 # Generating gtfs archive
 def GenerateZIP(Name: str, files):
-    with zipfile.ZipFile(f'/Output/{Name}.zip', 'w') as zipf:
+    with zipfile.ZipFile(f'Output/{Name}.zip', 'w') as zipf:
         for filename, content in files.items():
             zipf.writestr(filename, content)
 
