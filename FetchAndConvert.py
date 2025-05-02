@@ -15,8 +15,6 @@ if os.getenv("GITHUB_ACTIONS") != "true":
 API_KEY = os.getenv('TranzyGithubBuildKey') # Replace with your own API key
 BASE_URL = "https://api.tranzy.ai/v1/opendata"
 
-print(F"API KEY {API_KEY}")
-
 ######################################################################################################################################
 ##                                           GTFS files are generated succesfully however                                           ##
 ##                                             they are invalid because of the absence                                              ##
@@ -50,8 +48,6 @@ def FetchFromURL(URL: str, headers=None, params=None):
     
     except requests.exceptions.RequestException as e:
         print(f"Request failed: {e}")
-        print(response.content)
-        print(response.headers)
         return None
 
 # Converting API responses to CSV/TXT
