@@ -3,10 +3,13 @@
 This project converts the responses from the https://tranzy.ai API to GTFS static files.
 
 > [!CAUTION]  
-> Feeds are not currently published pending last minute compliance checking.
+> The Tranzy API doesn't supply any time related atributes or files related to schedule or time.
+This currently impacts the following:
+`calendar.txt` or `calendar_dates.txt` can't be generated due to any schedule information missing
+`trips.txt` doesn't have the `service_id` parameter
+`stop_times.txt` doesn't have the `arrival_time` or `departure_time` parameter
 
-> [!WARNING]  
-> Tranzy API isn't fully GTFS compliant, be prepared to troubleshoot.
+Tranzy API isn't fully GTFS compliant, be prepared to troubleshoot.
 
 <p>
   <picture>
