@@ -15,8 +15,6 @@ if os.getenv("GITHUB_ACTIONS") != "true":
 API_KEY = os.getenv('TranzyGithubBuildKey') # Replace with your own API key
 BASE_URL = "https://api.tranzy.ai/v1/opendata"
 
-print(len(API_KEY))
-
 ######################################################################################################################################
 ##                                           GTFS files are generated succesfully however                                           ##
 ##                                             they are invalid because of the absence                                              ##
@@ -30,7 +28,8 @@ print(len(API_KEY))
 session = requests.Session()
 session.headers.update({
     'X-API-KEY': API_KEY,
-    'Accept': 'application/json'
+    'Accept': 'application/json',
+    'User-Agent': 'GTFS Converter/1.0'
 })
 
 # Main http request function
