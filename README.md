@@ -31,7 +31,7 @@ This project converts the responses from the https://tranzy.ai API to GTFS stati
                 <a href="https://sctpiasi.ro/">
                     <picture>
                         <source media="(prefers-color-scheme: dark)" srcset="./assets/CTPIasiLight.png">
-                        <source media="(prefers-color-scheme: light)" srcset="./assets/TranzyCreditDark.png">
+                        <source media="(prefers-color-scheme: light)" srcset="./assets/CTPIasiDark.png">
                         <img alt="CTP Iasi" src="./assets/CTPIasiDark.png" style="max-width:120px; height:auto; vertical-align:middle;">
                     </picture>
                     <div>CTP Iasi</div>
