@@ -37,7 +37,7 @@ This project converts the responses from the https://tranzy.ai API to GTFS stati
                     <div>CTP Iasi</div>
                 </a>
             </td>
-            <td>GTFS Files</td>
+            <td>GTFS feed soon™</td>
             <td>
                 <a href="https://apps.tranzy.ai/accounts/terms-and-conditions/sctp-iasi">Licence</a>
             </td>
@@ -51,7 +51,7 @@ This project converts the responses from the https://tranzy.ai API to GTFS stati
                     <div>CTP Cluj</div>
                 </a>
             </td>
-            <td>Place url here</td>
+            <td>GTFS feed soon™</td>
             <td>
                 <a href="https://apps.tranzy.ai/accounts/terms-and-conditions/ctp-cluj">Licence</a>
             </td>
@@ -67,7 +67,7 @@ This project converts the responses from the https://tranzy.ai API to GTFS stati
                     <div>Eltrans Botosani</div>
                 </a>
             </td>
-            <td>GTFS Files</td>
+            <td>GTFS feed soon™</td>
             <td>
                 <a href="https://apps.tranzy.ai/accounts/terms-and-conditions/eltrans-botosani">Licence</a>
             </td>
@@ -83,7 +83,7 @@ This project converts the responses from the https://tranzy.ai API to GTFS stati
                     <div>STPT Timișoara</div>
                 </a>
             </td>
-            <td>GTFS Files</td>
+            <td>GTFS feed soon™</td>
             <td>
                 <a href="https://apps.tranzy.ai/accounts/terms-and-conditions/stpt-timisoara">Licence</a>
             </td>
@@ -103,7 +103,7 @@ This project converts the responses from the https://tranzy.ai API to GTFS stati
                     <div>PUA Chisinau</div>
                 </a>
             </td>
-            <td>GTFS Files</td>
+            <td>GTFS feed soon™</td>
             <td>
                 <a href="https://apps.tranzy.ai/accounts/terms-and-conditions/rtec-chisinau">RTEC licence</a>
                 <br>
