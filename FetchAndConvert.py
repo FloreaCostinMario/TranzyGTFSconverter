@@ -15,6 +15,8 @@ if os.getenv("GITHUB_ACTIONS") != "true":
 API_KEY = os.getenv('TranzyGithubBuildKey') # Replace with your own API key
 BASE_URL = "https://api.tranzy.ai/v1/opendata"
 
+print(len(API_KEY))
+
 ######################################################################################################################################
 ##                                           GTFS files are generated succesfully however                                           ##
 ##                                             they are invalid because of the absence                                              ##
