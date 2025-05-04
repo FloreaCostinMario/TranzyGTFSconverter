@@ -47,7 +47,8 @@ jobs:
         git add .
 
         # Commit changes with timestamp
-        git commit -m "Auto-commit script results: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes to commit"
+        TZ=Europe/Bucharest
+        git commit -m "Update GTFS feeds for  $(date + "%d %B %Y %H:%M")" || echo "No changes to commit"
 
         # Push changes
         git push origin HEAD:${{ github.ref }}
