@@ -47,8 +47,7 @@ jobs:
         git add .
 
         # Commit changes with timestamp
-        TZ=Europe/Bucharest
-        git commit -m "Update GTFS feeds for  $(date + "%d %B %Y %H:%M")" || echo "No changes to commit"
+        git commit -m "Update GTFS feeds for $(TZ=Europe/Bucharest date +'%d %B %Y %H:%M')" || echo "No changes to commit"
 
         # Push changes
         git push origin HEAD:${{ github.ref }}
