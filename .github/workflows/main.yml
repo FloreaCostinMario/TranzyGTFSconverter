@@ -2,7 +2,7 @@ name: Build GTFS feeds
 
 on:
   schedule:
-    - cron: '20 07 * * *'
+    - cron: '20 03 * * *'
   workflow_dispatch:  # Manual trigger from GitHub UI
 jobs:
   run-script:
@@ -47,7 +47,7 @@ jobs:
         git add .
 
         # Commit changes with timestamp
-        git commit -m "Auto-commit script results: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes to commit"
+        git commit -m "Update GTFS feeds for $(TZ=Europe/Bucharest date +'%d %B %Y %H:%M')" || echo "No changes to commit"
 
         # Push changes
         git push origin HEAD:${{ github.ref }}
